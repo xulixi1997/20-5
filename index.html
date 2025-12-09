@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>池州市正业网络科技有限公司 | 领先的物联网与数字化解决方案服务商</title>
+    <meta name="description" content="池州市正业网络科技有限公司专注于物联网(IoT)解决方案、工业自动化、大数据分析及智慧城市建设。赋能企业数字化转型。">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans SC"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            primary: '#0ea5e9',
+                            accent: '#f59e0b',
+                            surface: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* 自定义滚动条 */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        
+        /* 渐变文字类 */
+        .text-gradient {
+            background: linear-gradient(to right, #0ea5e9, #6366f1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        /* 玻璃拟态效果 */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .dark-glass {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-700 antialiased bg-slate-50">
+
+    <nav class="fixed w-full z-50 transition-all duration-300 glass-card shadow-sm top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                        正
+                    </div>
+                    <span class="font-bold text-xl text-slate-800 tracking-tight">正业网络<span class="text-blue-500">科技</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center font-medium text-slate-600">
+                    <a href="#home" class="hover:text-blue-600 transition">首页</a>
+                    <a href="#solutions" class="hover:text-blue-600 transition">解决方案</a>
+                    <a href="#products" class="hover:text-blue-600 transition">核心产品</a>
+                    <a href="#about" class="hover:text-blue-600 transition">关于我们</a>
+                    <a href="#contact" class="px-5 py-2.5 bg-slate-900 text-white rounded-full hover:bg-blue-600 transition shadow-lg transform hover:-translate-y-0.5">联系咨询</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-10">
+            <img src="https://picsum.photos/seed/techbg/1920/1080" alt="Background" class="w-full h-full object-cover">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6 border border-blue-200">
+                        🚀 赋能安微，智联全球
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-black leading-tight text-slate-900 mb-6">
+                        构建万物互联的<br>
+                        <span class="text-gradient">数字生态系统</span>
+                    </h1>
+                    <p class="text-xl text-slate-600 mb-8 leading-relaxed">
+                        池州市正业网络科技有限公司致力于通过先进的物联网（IoT）技术与边缘计算方案，为企业提供从硬件接入到云端数据的全栈式数字化转型服务。
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact" class="inline-flex justify-center items-center px-8 py-4 text-base font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition shadow-xl shadow-blue-500/30">
+                            立即启动项目
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#solutions" class="inline-flex justify-center items-center px-8 py-4 text-base font-bold text-slate-700 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition">
+                            查看解决方案
+                        </a>
+                    </div>
+                </div>
+                <div class="relative hidden lg:block">
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="https://picsum.photos/seed/iot1/400/500" class="rounded-2xl shadow-2xl transform translate-y-12 object-cover h-64 w-full">
+                        <img src="https://picsum.photos/seed/server/400/500" class="rounded-2xl shadow-2xl object-cover h-64 w-full">
+                        <img src="https://picsum.photos/seed/chip/400/500" class="rounded-2xl shadow-2xl object-cover h-64 w-full col-span-2 mt-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-900 py-12 text-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-slate-800">
+            <div>
+                <div class="text-4xl font-bold text-blue-400 mb-2">50+</div>
+                <div class="text-slate-400 text-sm">企业级客户</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-blue-400 mb-2">10W+</div>
+                <div class="text-slate-400 text-sm">设备连接数</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-blue-400 mb-2">99.9%</div>
+                <div class="text-slate-400 text-sm">平台稳定性</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-blue-400 mb-2">24h</div>
+                <div class="text-slate-400 text-sm">极速响应服务</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white">
+        <div class="max-w-3xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-6 text-slate-900">让数据流动，让决策智慧</h2>
+            <p class="text-lg text-slate-600 leading-8">
+                在正业网络，我们不只是编写代码或安装传感器。我们正在构建数字神经系统，将物理世界的脉动转化为可操作的商业洞察。从池州出发，我们的技术正在帮助工厂、农场和城市变得更加智能。
+            </p>
+        </div>
+    </section>
+
+    <section id="products" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-blue-600 font-bold tracking-wider uppercase text-sm">Core Capability</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2">三大核心技术引擎</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 border-blue-500">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">智能硬件接入</h3>
+                    <p class="text-slate-600 mb-6">支持 Modbus, MQTT, NB-IoT 等多种协议，兼容市面主流传感器与PLC，实现设备即插即用。</p>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>边缘计算网关</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>定制化传感器开发</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 border-purple-500">
+                    <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 text-2xl mb-6">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">IoT 云平台</h3>
+                    <p class="text-slate-600 mb-6">高并发、低延时的云端管理平台。提供设备生命周期管理、固件OTA升级及远程监控面板。</p>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>私有化/混合云部署</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>可视化仪表盘</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border-t-4 border-orange-500">
+                    <div class="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center text-orange-600 text-2xl mb-6">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">数据智能分析</h3>
+                    <p class="text-slate-600 mb-6">基于 AI 算法对海量工业数据进行清洗与分析，实现预测性维护与能耗优化建议。</p>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>异常行为检测</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>自动化报表生成</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="py-20 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2 relative">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-green-200 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
+                    <img src="https://picsum.photos/seed/agriculture/800/600" alt="Smart Agriculture" class="rounded-2xl shadow-2xl relative z-10 w-full hover:scale-105 transition duration-500">
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="text-green-600 font-bold mb-2">Smart Agriculture</div>
+                    <h2 class="text-3xl font-bold mb-6">智慧农业环境监测系统</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        针对安徽及周边地区的农业特点，我们开发了精准农业解决方案。通过部署土壤温湿度、光照、CO2传感器，实时联动大棚卷帘机与灌溉系统。
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 bg-slate-50 rounded-lg border border-slate-100">
+                            <h4 class="font-bold text-slate-800">增产增收</h4>
+                            <p class="text-sm text-slate-500">科学种植，平均增产15%</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-lg border border-slate-100">
+                            <h4 class="font-bold text-slate-800">节约人力</h4>
+                            <p class="text-sm text-slate-50">远程一键控制，省时省力</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-16">
+                <div class="lg:w-1/2 relative">
+                    <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
+                    <img src="https://picsum.photos/seed/factory/800/600" alt="Smart Factory" class="rounded-2xl shadow-2xl relative z-10 w-full hover:scale-105 transition duration-500">
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="text-blue-600 font-bold mb-2">Industrial IoT</div>
+                    <h2 class="text-3xl font-bold mb-6">工厂设备数字化升级</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        助力传统制造企业实现“设备上云”。实时采集产线设备运行状态（OEE），自动预警故障，打通 ERP 与 MES 系统，消除信息孤岛。
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-slate-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-3"></i> 非侵入式数据采集，不影响原有生产
+                        </li>
+                        <li class="flex items-center text-slate-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-3"></i> 可视化生产看板，老板随时随地看数据
+                        </li>
+                        <li class="flex items-center text-slate-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-3"></i> 能源管理模块，降低工厂能耗成本
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2 relative">
+                    <img src="https://picsum.photos/seed/city/800/600" alt="Smart City" class="rounded-2xl shadow-2xl relative z-10 w-full hover:scale-105 transition duration-500">
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="text-orange-600 font-bold mb-2">Smart Community</div>
+                    <h2 class="text-3xl font-bold mb-6">智慧社区与安防管理</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        整合人脸识别门禁、智能停车、垃圾满溢监测与高空抛物监控。打造安全、便捷、绿色的现代化生活社区。
+                    </p>
+                    <div class="flex gap-4">
+                        <span class="px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">物业管理APP</span>
+                        <span class="px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">业主小程序</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold">硬件与界面展示</h2>
+                <p class="text-slate-400 mt-4">自主研发 + 生态合作</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px]">
+                <div class="col-span-2 row-span-2 relative group overflow-hidden rounded-2xl">
+                    <img src="https://picsum.photos/seed/dashboard/800/800" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <span class="text-xl font-bold border-b-2 border-blue-500 pb-1">数据可视化大屏</span>
+                    </div>
+                </div>
+                <div class="col-span-1 row-span-1 relative group overflow-hidden rounded-2xl">
+                    <img src="https://picsum.photos/seed/sensor/400/400" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <span class="text-sm font-bold">工业网关</span>
+                    </div>
+                </div>
+                <div class="col-span-1 row-span-1 relative group overflow-hidden rounded-2xl">
+                    <img src="https://picsum.photos/seed/camera/400/400" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <span class="text-sm font-bold">智能监控</span>
+                    </div>
+                </div>
+                <div class="col-span-2 row-span-1 relative group overflow-hidden rounded-2xl">
+                    <img src="https://picsum.photos/seed/code/800/400" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <span class="text-lg font-bold">移动端小程序</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16">一站式落地流程</h2>
+            <div class="grid md:grid-cols-5 gap-4 relative">
+                <div class="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-slate-200 -z-10"></div>
+                
+                <div class="text-center bg-white">
+                    <div class="w-16 h-16 mx-auto bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">1</div>
+                    <h3 class="font-bold text-lg mb-2">需求调研</h3>
+                    <p class="text-sm text-slate-500 px-4">深入现场，了解业务痛点与技术环境</p>
+                </div>
+                <div class="text-center bg-white">
+                    <div class="w-16 h-16 mx-auto bg-blue-500 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">2</div>
+                    <h3 class="font-bold text-lg mb-2">方案设计</h3>
+                    <p class="text-sm text-slate-500 px-4">输出详细的技术架构图与实施方案</p>
+                </div>
+                <div class="text-center bg-white">
+                    <div class="w-16 h-16 mx-auto bg-blue-400 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">3</div>
+                    <h3 class="font-bold text-lg mb-2">开发实施</h3>
+                    <p class="text-sm text-slate-500 px-4">敏捷开发，硬件安装与系统调试</p>
+                </div>
+                <div class="text-center bg-white">
+                    <div class="w-16 h-16 mx-auto bg-blue-300 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">4</div>
+                    <h3 class="font-bold text-lg mb-2">测试交付</h3>
+                    <p class="text-sm text-slate-500 px-4">全链路压力测试，用户培训与移交</p>
+                </div>
+                <div class="text-center bg-white">
+                    <div class="w-16 h-16 mx-auto bg-blue-200 text-blue-900 rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">5</div>
+                    <h3 class="font-bold text-lg mb-2">运维保障</h3>
+                    <p class="text-sm text-slate-500 px-4">7x24小时售后响应，持续迭代升级</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-slate-50 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-slate-400 mb-8 font-medium">值得信赖的技术伙伴</p>
+            <div class="flex flex-wrap justify-center gap-12 opacity-60 grayscale hover:grayscale-0 transition duration-500">
+                <div class="flex items-center gap-2 text-2xl font-bold"><i class="fab fa-aws text-3xl"></i> Cloud Services</div>
+                <div class="flex items-center gap-2 text-2xl font-bold"><i class="fab fa-python text-3xl"></i> Python Tech</div>
+                <div class="flex items-center gap-2 text-2xl font-bold"><i class="fab fa-react text-3xl"></i> React Systems</div>
+                <div class="flex items-center gap-2 text-2xl font-bold"><i class="fas fa-microchip text-3xl"></i> STM32 IoT</div>
+                <div class="flex items-center gap-2 text-2xl font-bold"><i class="fas fa-server text-3xl"></i> Linux Ent</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold">正业网络的独特优势</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 border border-slate-100 rounded-xl hover:shadow-lg transition">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4 class="font-bold text-lg mb-2">本地化服务</h4>
+                    <p class="text-slate-500 text-sm">立足池州，辐射安徽。相比一线城市服务商，我们响应更即时，沟通成本更低。</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-xl hover:shadow-lg transition">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4"><i class="fas fa-code-branch"></i></div>
+                    <h4 class="font-bold text-lg mb-2">全栈开发能力</h4>
+                    <p class="text-slate-500 text-sm">不依赖外包，从PCB电路设计到Web前端、后端算法，团队全链条自主可控。</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-xl hover:shadow-lg transition">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4"><i class="fas fa-shield-alt"></i></div>
+                    <h4 class="font-bold text-lg mb-2">数据安全优先</h4>
+                    <p class="text-slate-500 text-sm">严格的数据加密传输与存储策略，确保企业核心商业机密绝对安全。</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-xl hover:shadow-lg transition">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4"><i class="fas fa-tags"></i></div>
+                    <h4 class="font-bold text-lg mb-2">高性价比</h4>
+                    <p class="text-slate-500 text-sm">拒绝虚高报价。我们提供灵活的模块化方案，让中小企业也能用得起物联网。</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-xl hover:shadow-lg transition">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4"><i class="fas fa-rocket"></i></div>
+                    <h4 class="font-bold text-lg mb-2">快速部署</h4>
+                    <p class="text-slate-500 text-sm">成熟的底层框架，将定制开发周期缩短30%以上，助力业务快速上线。</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-xl hover:shadow-lg transition">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4"><i class="fas fa-user-clock"></i></div>
+                    <h4 class="font-bold text-lg mb-2">长期陪跑</h4>
+                    <p class="text-slate-500 text-sm">不仅仅是一次交付，我们提供长期的技术咨询与系统迭代服务，与客户共同成长。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-900 text-white relative overflow-hidden">
+         <div class="absolute inset-0 z-0 opacity-20">
+            <img src="https://picsum.photos/seed/meeting/1920/600" class="w-full h-full object-cover grayscale">
+        </div>
+        <div class="max-w-4xl mx-auto px-4 relative z-10 text-center">
+            <i class="fas fa-quote-left text-4xl text-blue-500 mb-6"></i>
+            <h3 class="text-2xl md:text-3xl font-light italic leading-relaxed mb-8">
+                “正业网络团队展现了极高的专业素养。他们定制的远程温控系统彻底解决了我们偏远基站的管理难题，每年为我们节省了数十万元的人力巡检成本。”
+            </h3>
+            <div class="flex items-center justify-center gap-4">
+                <img src="https://picsum.photos/seed/avatar1/100/100" class="w-12 h-12 rounded-full border-2 border-blue-500">
+                <div class="text-left">
+                    <div class="font-bold">王总</div>
+                    <div class="text-sm text-slate-400">某能源管理公司 技术总监</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-2">公司动态 & 行业资讯</h2>
+                    <p class="text-slate-500">了解最新的物联网趋势与正业动态</p>
+                </div>
+                <a href="#" class="text-blue-600 font-semibold hover:underline">查看更多 <i class="fas fa-arrow-right text-xs"></i></a>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://picsum.photos/seed/news1/600/400" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs text-slate-400 mb-2">2023-10-15</div>
+                        <h3 class="font-bold text-lg mb-3 group-hover:text-blue-600 transition">正业网络中标池州某智慧园区改造项目</h3>
+                        <p class="text-slate-500 text-sm line-clamp-2">我司成功签约贵池区某工业园物联网改造工程，将为园区提供水电能耗监控与智能安防一体化平台...</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://picsum.photos/seed/news2/600/400" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs text-slate-400 mb-2">2023-09-22</div>
+                        <h3 class="font-bold text-lg mb-3 group-hover:text-blue-600 transition">发布全新一代边缘计算网关 ZY-Edge-X1</h3>
+                        <p class="text-slate-500 text-sm line-clamp-2">搭载高性能ARM处理器，支持Docker容器化部署，让边缘端具备更强大的数据处理与AI推理能力...</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://picsum.photos/seed/news3/600/400" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs text-slate-400 mb-2">2023-08-10</div>
+                        <h3 class="font-bold text-lg mb-3 group-hover:text-blue-600 transition">关于工业物联网数据安全的白皮书</h3>
+                        <p class="text-slate-500 text-sm line-clamp-2">随着设备联网数量激增，数据安全成为重中之重。本文深度解析如何构建端到端的安全防护体系...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">常见问题</h2>
+            <div class="space-y-4">
+                <div class="border border-slate-200 rounded-lg p-6 hover:border-blue-300 transition cursor-pointer">
+                    <h4 class="font-bold text-lg mb-2 flex justify-between items-center">
+                        你们提供定制化开发服务吗？
+                        <i class="fas fa-chevron-down text-slate-400"></i>
+                    </h4>
+                    <p class="text-slate-600 text-sm">是的，我们专注于为客户提供量身定制的软硬件解决方案，根据您的具体业务场景进行功能设计。</p>
+                </div>
+                <div class="border border-slate-200 rounded-lg p-6 hover:border-blue-300 transition cursor-pointer">
+                    <h4 class="font-bold text-lg mb-2 flex justify-between items-center">
+                        项目实施周期一般需要多久？
+                        <i class="fas fa-chevron-down text-slate-400"></i>
+                    </h4>
+                    <p class="text-slate-600 text-sm">具体取决于项目复杂度。标准化模块部署通常在2周内，深度定制开发项目通常需要1-3个月。</p>
+                </div>
+                <div class="border border-slate-200 rounded-lg p-6 hover:border-blue-300 transition cursor-pointer">
+                    <h4 class="font-bold text-lg mb-2 flex justify-between items-center">
+                        售后服务如何保障？
+                        <i class="fas fa-chevron-down text-slate-400"></i>
+                    </h4>
+                    <p class="text-slate-600 text-sm">我们提供1年的免费质保期，包含系统Bug修复与远程技术支持。质保期后可签署维保协议。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+            <div class="mb-6 md:mb-0">
+                <h2 class="text-2xl font-bold mb-2">加入我们，共创未来</h2>
+                <p class="text-blue-100">正在寻找优秀的嵌入式工程师与全栈开发者。</p>
+            </div>
+            <a href="mailto:dev@chizhouzhengye.asia" class="px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-slate-100 transition shadow-lg">
+                投递简历
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-16 bg-white rounded-3xl shadow-xl overflow-hidden">
+                <div class="p-10 bg-slate-900 text-white flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-6">联系我们</h2>
+                        <p class="text-slate-400 mb-10">有项目需求或技术疑问？请填写表单或直接通过以下方式联系我们，我们的工程师将在24小时内回复。</p>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center text-blue-400 flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-lg">公司地址</h5>
+                                    <p class="text-slate-400 text-sm">安徽省池州市贵池区学府雅筑小区5号楼104</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center text-blue-400 flex-shrink-0">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-lg">电子邮箱</h5>
+                                    <p class="text-slate-400 text-sm">dev@chizhouzhengye.asia</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center text-blue-400 flex-shrink-0">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-lg">联系电话</h5>
+                                    <p class="text-slate-400 text-sm">19954070639</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-12">
+                        <div class="text-sm text-slate-500">关注我们</div>
+                        <div class="flex gap-4 mt-4 text-xl text-slate-300">
+                            <a href="#" class="hover:text-white transition"><i class="fab fa-weixin"></i></a>
+                            <a href="#" class="hover:text-white transition"><i class="fab fa-weibo"></i></a>
+                            <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-10">
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-2">姓名</label>
+                                <input type="text" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" placeholder="您的姓名">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-2">电话</label>
+                                <input type="tel" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" placeholder="联系电话">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-2">邮箱</label>
+                            <input type="email" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" placeholder="example@company.com">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-2">需求描述</label>
+                            <textarea rows="4" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" placeholder="请简述您的项目需求或咨询内容..."></textarea>
+                        </div>
+                        <button type="button" class="w-full py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition shadow-lg shadow-blue-500/30">
+                            发送消息
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-300 pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="text-2xl font-bold text-white mb-4">正业网络<span class="text-blue-500">.</span></div>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        专注物联网技术研发与应用，致力于成为安微省领先的工业互联网解决方案服务商。
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">解决方案</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-blue-400 transition">智慧农业</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">工业自动化</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">智慧城市</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">环境监测</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">快速链接</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-blue-400 transition">关于我们</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">服务流程</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">加入我们</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition">隐私政策</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">联系方式</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><i class="fas fa-phone mr-2 text-blue-500"></i> 19954070639</li>
+                        <li><i class="fas fa-envelope mr-2 text-blue-500"></i> dev@chizhouzhengye.asia</li>
+                        <li><i class="fas fa-map-marker-alt mr-2 text-blue-500"></i> 池州市贵池区学府雅筑5号楼104</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
+                <div>
+                    &copy; 2023 池州市正业网络科技有限公司 保留所有权利.
+                </div>
+                <div class="mt-2 md:mt-0">
+                   技术驱动 · 服务至上
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
